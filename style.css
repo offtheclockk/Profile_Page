@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    background-color: #000000;
+    color: #ffffff;
+    height: 80px;
+    width: 1006px;
+    display: flex;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.main{
+    display: flex;
+    height: 1100px;
+    width: 1000px;
+    background-color: #ffffff;
+    border: grey;
+    border-style: solid;
+}
+
+.first-row{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    background-color: #ffffff;
+}
+
+.second-row{
+    display: flex;
+    margin-top: 300px;
+    height: 300px;
+    width: 310px;
+    background-color: #ffffff;
+    border: gray;
+    border-style: solid;
+    position: absolute;
+    margin-left: 647px;
+    top: 110px;
+}
+
+.view-box{
+    margin-top: 102px;
+    height: 25px;
+    width: 305px;
+    background-color: #ffffff;
+    border: gray;
+    border-style: solid;
+    top: 170px;
+    position: absolute;
+}
+
+.user{
+    display: flex;
+    height: 350px;
+    width: 500px;
+    border: grey;
+    border-style: solid;
+    margin: 50px;
+}
+
+.user-bar{
+    display: flex;
+    height: 90px;
+    width: 488px;
+    background-color: #17a2b8;
+    position: absolute;
+}
+
+.prof1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 160px;
+    margin-left: 20px;
+}
+
+h1{
+    margin-left: 35px;
+    margin-top: 120px;
+}
+
+h2{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+h3{
+    margin-top: 3px;
+    margin-left: 35px;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.edit{
+    margin-left: 60px;
+}
+
+.gear{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.map-marker{
+    height: 30px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.req{
+    height: 200px;
+    width: 300px;
+    border: grey;
+    border-style: solid;
+    margin: 50px;
+}
+
+.req-bar{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    background-color: grey;
+}
+
+.con-req{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    top: 30px;
+    position: absolute;
+}
+
+.two{
+    font-size: larger;
+    width: 30px;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: lightgrey;
+    top: 152px;
+    position: absolute;
+}
+
+.todd{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    top: 90px;
+    position: absolute;
+}
+
+.phil{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    top: 150px;
+    position: absolute;
+}
+
+.prof-todd{
+    height: 40px;
+    width: 40px;
+    top: 200px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.prof-phil{
+    height: 40px;
+    width: 40px;
+    top: 260px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.accept-todd{
+    height: 40px;
+    width: 40px;
+    top: 200px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.close-todd{
+    height: 40px;
+    width: 40px;
+    top: 200px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.accept-phil{
+    height: 40px;
+    width: 40px;
+    top: 260px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.close-phil{
+    height: 40px;
+    width: 40px;
+    top: 260px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.con-bar{
+    display: flex;
+    height: 50px;
+    width: 310px;
+    background-color: grey;
+}
+
+.total{
+    font-size: larger;
+    width: 50px;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: lightgrey;
+    top: 12px;
+    position: absolute;
+}
+
+.your-con{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 78px;
+    bottom: 160px;
+    position: relative
+}
+
+.adrien{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.anne{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 150px;
+}
+
+.alayne{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.arry{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.prof-adrien{
+    height: 40px;
+    width: 40px;
+    top: 70px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.prof-anne{
+    height: 40px;
+    width: 40px;
+    top: 120px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.prof-alayne{
+    height: 40px;
+    width: 40px;
+    top: 170px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.prof-arry{
+    height: 40px;
+    width: 40px;
+    top: 220px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.accept-adrien{
+    height: 40px;
+    width: 40px;
+    top: 70px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.accept-anne{
+    height: 40px;
+    width: 40px;
+    top: 120px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.accept-alayne{
+    height: 40px;
+    width: 40px;
+    top: 170px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.accept-arry{
+    height: 40px;
+    width: 40px;
+    top: 220px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+.close-adrien{
+    height: 40px;
+    width: 40px;
+    top: 70px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.close-anne{
+    height: 40px;
+    width: 40px;
+    top: 120px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.close-alayne{
+    height: 40px;
+    width: 40px;
+    top: 170px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.close-arry{
+    height: 40px;
+    width: 40px;
+    top: 220px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.view{
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 15px;
+    bottom: 4px;
+    position: relative
+}
+
+.edu{
+    margin-top: 350px;
+    margin-left: 55px;
+    height: 325px;
+    width: 490px;
+    background-color: #ffffff;
+    border: gray;
+    border-style: solid;
+    top: 170px;
+    position: absolute;
+}
+
+.edu-bar{
+    display: flex;
+    height: 50px;
+    width: 490px;
+    background-color: grey;
+}
+
+.edu1{
+    font-family: cursive;
+    position: absolute;
+    bottom: 280px;
+    color: #ffffff;
+}
+
+.coding{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    bottom: 220px;
+}
+
+.dec{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    bottom: 180px;
+    color: grey;
+}
+
+.triple{
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;
+    bottom: 140px;
+}
